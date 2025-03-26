@@ -1,0 +1,15 @@
+{
+  "name": "blog-monorepo",
+  "private": true,
+  "scripts": {
+    "blog:dev": "pnpm --filter blog dev",
+    "blog:build": "pnpm --filter blog build",
+    "web:dev": "pnpm --filter web dev",
+    "web:build": "pnpm --filter web build",
+    "server:dev": "pnpm --filter server dev"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "typescript": "^5.3.3"
+  }
+}
